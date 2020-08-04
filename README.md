@@ -70,15 +70,15 @@ _A list of my commonly used Git commands_
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 
-### Creating new repo and pushing from local
+## Creating new repo and pushing from local
 
 1. Create a new repo in GitHub 
 2. Have your local project and make sure you initialized it with git:  `git init`
 3. `git commit -m "first commit"`
-4. # Push an existing repository from the command line
-   `git remote add origin https://github.com/automagiq/todoTracker`
+ ### Push an existing repository from the command line
+4.   `git remote add origin https://github.com/automagiq/todoTracker`
    `git push -u origin master`
 5. if you have error "! [rejected]. Updates were rejected because the tip of your current branch is behind" 
-# Force push it
+### Force push it
 `git push -f origin master`
 
